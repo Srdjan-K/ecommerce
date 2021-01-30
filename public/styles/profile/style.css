@@ -1,0 +1,120 @@
+
+
+body{
+    background-color: rgb(174, 193, 201);
+    font-family: 'Lato', sans-serif;
+}
+
+.container_ext{
+    background-color: rgb(24, 57, 94); 
+    margin-top: 20px; 
+    border-radius: 10px;
+    color: rgb(171, 183, 197);
+}
+
+.container_ext_span{
+    color:white;
+}
+
+.link_style{
+    background-color: rgb(24, 57, 94);
+    width: 300px;
+    height: auto;
+    display: block;
+    margin:auto auto;
+    color: white;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+
+    -webkit-transition:	350ms;
+  	-moz-transition:	350ms;
+   	-ms-transition: 350ms;
+   	-o-transition:	350ms;
+    transition:    	350ms;
+}
+
+.link_style:hover{
+    background-color: rgb(78, 124, 150);
+    color: rgb(18, 44, 66);
+    text-decoration: none;
+}
+
+.link_style:active{
+    text-decoration: none;
+}
+
+.link_style:focus{
+    text-decoration: none;
+}
+
+
+.link_style_2{
+    background-color:rgb(212, 129, 80);
+    width: 300px;
+    height: auto;
+    display: block;
+    margin:auto auto;
+    margin-top:20px;
+    color: white;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+
+    -webkit-transition:	350ms;
+  	-moz-transition:	350ms;
+   	-ms-transition: 350ms;
+   	-o-transition:	350ms;
+    transition:    	350ms;
+}
+
+.link_style_2:hover{
+    background-color: rgb(78, 124, 150);
+    color:rgb(212, 129, 80);
+    text-decoration: none;
+}
+
+.link_style_2:active{
+    text-decoration: none;
+}
+
+.link_style_2:focus{
+    text-decoration: none;
+}
+
+
+
+
+.shop_product_link_holder{
+    background-color: rgb(212, 129, 80);
+    display:flex;
+    flex-wrap: wrap;
+	justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+    margin-top: 20px; 
+    padding: 20px;
+    color: rgb(41, 67, 97);
+}
+
+.shop_product_link_holder > div{
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+.new_store_form, .new_product_form{
+    width: 70%; 
+    margin: auto auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid rgb(18, 44, 66) 2px;
+}
